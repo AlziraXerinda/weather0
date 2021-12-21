@@ -82,7 +82,8 @@ function getMovie() {
                 <div class="p-5 text-center">
                 <h5 class="text-dark">${cida}</h5>
                 <img src="weather-icon-1.ico" >
-                  <h5>${cidade.main.temp}</h5>
+                  <h5>Máxima: (${cidade.main.temp_max})</h5>
+                  <h5>Mínima: (${cidade.main.temp_min})</h5>
                   <a onclick="movieSelected('${cida}')" class="btn btn-primary mb-3" href="cidade.html">Ver mais</a>
                   
                 </div>
