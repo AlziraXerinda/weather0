@@ -32,9 +32,9 @@ function getMovie() {
         </div>
         <div class="row">
           <div class="well">
-            <
+            
            
-            <a href="index.html" class="btn btn-light">Go Back to Search</a>
+            <a href="index.html" class="btn btn-secondary">Voltar</a>
           </div>
         </div>
       `;
